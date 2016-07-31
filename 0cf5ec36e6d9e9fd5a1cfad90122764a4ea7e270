@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_42fa7375",
+        "filename": "setup-makefiles.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-31T18:34:54Z",
+      "side": 1,
+      "message": "This can be a problem, IMO. You may want to extract blobs only, and if you do that, firmware calls will not be appended to the makefiles. We\u0027re appending those unconditionally: (https://github.com/Mi5Devs/android_device_xiaomi_gemini/commit/ecdb67c2540d138528f8290ecf8d75145fe61403) because even if there\u0027s no radio folder on vendor, nothing wrong will happen.",
+      "range": {
+        "startLine": 80,
+        "startChar": 3,
+        "endLine": 80,
+        "endChar": 33
+      },
+      "revId": "0cf5ec36e6d9e9fd5a1cfad90122764a4ea7e270",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
